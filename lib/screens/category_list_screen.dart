@@ -10,9 +10,9 @@ class Category {
 
 class CategoryListScreen extends StatelessWidget {
   final List<Category> categories = [
-    Category(name: 'Laptop', imagePath: 'assets/laptop.png'),
-    Category(name: 'Smartphone', imagePath: 'assets/smartphone.png'),
-    Category(name: 'Smartwatch', imagePath: 'assets/smartwatch.png'),
+    Category(name: 'Laptop', imagePath: 'image/laptop.png'),
+    Category(name: 'Smartphone', imagePath: 'image/smartphone.png'),
+    Category(name: 'Smartwatch', imagePath: 'image/smartwatch.png'),
   ];
 
   @override
